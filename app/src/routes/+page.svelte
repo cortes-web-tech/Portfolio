@@ -1,10 +1,12 @@
 <script>
-  export let name;
+  import Nav from "../components/Nav.svelte";
+  let name = "Alejandro Cortes";
 </script>
 
 <main>
-  <h1>Hello</h1>
-  <h2>I'm {name}. Web Developer</h2>
+  <Nav />
+  <h1>{name}</h1>
+  <h2>Web Developer</h2>
 </main>
 
 <style>
@@ -16,7 +18,7 @@
   }
 
   h1 {
-    color: #ff3e00;
+    color: cornflowerblue;
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
