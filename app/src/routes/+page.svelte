@@ -1,11 +1,12 @@
 <script>
   import Nav from "../components/Nav.svelte";
   let name = "Alejandro Cortes";
+  import "../style/homepage.css";
 </script>
 
 <main>
   <Nav />
-  <h1>{name}</h1>
+  <h1 class="name">{name}</h1>
   <h2>Web Developer</h2>
 </main>
 
@@ -18,7 +19,6 @@
   }
 
   h1 {
-    color: cornflowerblue;
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;

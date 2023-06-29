@@ -1,0 +1,21 @@
+body{
+    background-color: #C4D7B2;
+    color: #F7FFE5
+    /* #F7FFE5 */
+    /* #E1ECC8 */
+    /* #C4D7B2 */
+    /* #A0C49D */
+}
+
+
+main p{
+    font-size: 30px;
+}
+
+
+.skills ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
