@@ -11,8 +11,9 @@
 
 <style>
   .Nav {
+    font-size: 3em;
     background-color: #a0c49d;
-    height: 40px;
+    height: 80px;
     padding-top: 10px;
     padding-bottom: 0px;
   }
