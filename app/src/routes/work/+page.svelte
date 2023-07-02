@@ -11,7 +11,7 @@
         <div class="card">
           <div class="text">
             <h4>inSession</h4>
-            <p>(Special Use Case)</p>
+
             <small>CRUD, Databases</small>
           </div>
         </div>
@@ -19,19 +19,20 @@
       <div class="card">
         <div class="text">
           <h4>Data App</h4>
-          <p>(Data Driven Visual Piece)</p>
+
           <small>D3, Rechartjs, react-vis</small>
         </div>
       </div>
     </div>
     <div class="--portfolio">
-      <div class="card">
-        <div class="text">
-          <h4>👀</h4>
-          <p>(Visual Piece)</p>
-          <small>much wow such aesthetic</small>
+      <a href="http://localhost:5173" target="_blank">
+        <div class="card">
+          <div class="text">
+            <h4>View My Tavels</h4>
+            <p>📍🗺</p>
+          </div>
         </div>
-      </div>
+      </a>
       <div class="card">
         <div class="text">
           <h4>KnottyLevie</h4>

@@ -7,7 +7,9 @@
 <main>
   <Nav />
   <h1 class="name">{name}</h1>
-  <h2>Web Developer</h2>
+  <h2>Software Developer</h2>
+  <h2>Data Engineer</h2>
+  <h2>Live Event Producer (AV/IT)</h2>
 </main>
 
 <style>
@@ -20,7 +22,7 @@
 
   h1 {
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 100;
   }
 

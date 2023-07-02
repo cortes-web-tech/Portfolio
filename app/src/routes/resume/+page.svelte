@@ -4,8 +4,9 @@
 
 <main>
   <Nav />
-  <h1>Resume</h1>
-  <h2>Web Developer</h2>
+
+  <p>Resume being updated.</p>
+  <p>Will live here as PDF.</p>
 </main>
 
 <style>

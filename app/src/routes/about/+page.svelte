@@ -13,7 +13,10 @@
       href="/work">portfolio</a
     >.
   </p>
-
+  <p>
+    The past few years I've mostly been focused on producing live/hybrid events.
+    Now I'm returning to my roots.
+  </p>
   <p>Below are some of my favorite tools to use.</p>
   <div class="skills">
     <ul>

@@ -5,7 +5,8 @@
 <main>
   <Nav />
   <h1>Contact</h1>
-  <h2>Web Developer</h2>
+  <h2>Email: Cortes.Web.Tech@gmail.com</h2>
+  <a href="https://github.com/cortes-web-tech" target="_blank">Github</a>
 </main>
 
 <style>
