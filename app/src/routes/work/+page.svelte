@@ -8,36 +8,41 @@
   <div class="portfolio">
     <div class="--portfolio">
       <a href="/inSession">
-        <div class="card">
+        <div class="notReady">
           <div class="text">
             <h4>inSession</h4>
-
             <small>CRUD, Databases</small>
           </div>
+          <br />
+          <small>Coming soon™️</small>
         </div>
       </a>
-      <div class="card">
+      <div class="notReady">
         <div class="text">
           <h4>Data App</h4>
-
           <small>D3, Rechartjs, react-vis</small>
         </div>
+        <br />
+        <small>Coming soon™️</small>
       </div>
     </div>
     <div class="--portfolio">
-      <a href="http://localhost:5173" target="_blank">
+      <a href="https://www.viewmytravels.com" target="_blank">
         <div class="card">
           <div class="text">
-            <h4>View My Tavels</h4>
-            <p>📍🗺</p>
+            <h4>View My Travels</h4>
+            <small>📍🗺</small>
           </div>
+          <small>A Data visualization app.</small>
         </div>
       </a>
-      <div class="card">
+      <div class="notReady">
         <div class="text">
           <h4>KnottyLevie</h4>
-          <p>(eCommerce Site)</p>
+          <small>(eCommerce Site)</small>
         </div>
+        <br />
+        <small>Coming soon™️</small>
       </div>
     </div>
   </div>
@@ -83,6 +88,22 @@
   .card:hover {
     background-color: #f7ffe5;
     color: #a0c49d;
+  }
+
+  .notReady {
+    height: 15rem;
+    border: 0px solid #a0c49d;
+    background-color: #a0c49d;
+    margin: 1em;
+    padding: 10px;
+  }
+  /* #F7FFE5 */
+  /* #E1ECC8 */
+  /* #C4D7B2 */
+  /* #A0C49D */
+  .notReady:hover {
+    background-color: #f7ffe5;
+    color: grey;
   }
 
   .text {
