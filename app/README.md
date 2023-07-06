@@ -4,3 +4,4 @@
 
 - _Basic layout built._
 - _Portfolio links to [ViewMyTravels](https://www.viewmytravels.com)_
+- _Attempting to to run via Docker._
