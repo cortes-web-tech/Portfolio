@@ -7,16 +7,16 @@
   <Nav />
   <div class="portfolio">
     <div class="--portfolio">
-      <a href="/inSession">
-        <div class="notReady">
-          <div class="text">
-            <h4>inSession</h4>
-            <small>CRUD, Databases</small>
-          </div>
-          <br />
-          <small>Coming soon™️</small>
+      <!-- <a href="/inSession"> -->
+      <div class="notReady">
+        <div class="text">
+          <h4>inSession</h4>
+          <small>CRUD, Databases</small>
         </div>
-      </a>
+        <br />
+        <small>Coming soon™️</small>
+      </div>
+      <!-- </a> -->
       <div class="notReady">
         <div class="text">
           <h4>Data App</h4>
@@ -102,8 +102,8 @@
   /* #C4D7B2 */
   /* #A0C49D */
   .notReady:hover {
-    background-color: #f7ffe5;
-    color: grey;
+    background-color: #50949d;
+    color: #a0c49d;
   }
 
   .text {

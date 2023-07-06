@@ -14,10 +14,16 @@
 
 <style>
   main {
+    /* #F7FFE5 */
+    /* #E1ECC8 */
+    /* #C4D7B2 */
+    /* #A0C49D */
     text-align: center;
     padding: 1em;
     max-width: 240px;
+    background-color: #c4d7b2;
     margin: 0 auto;
+    min-height: 44.5rem;
   }
 
   h1 {
