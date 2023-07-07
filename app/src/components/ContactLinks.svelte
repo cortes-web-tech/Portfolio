@@ -1,6 +1,6 @@
 <script>
   import githubLogo from "../images/github.png";
-  import linkedInLogo from "../images/LinkedIn.png";
+  import linkedInLogo from "../images/linkedIn.png";
 </script>
 
 <main>
@@ -15,7 +15,7 @@
     >
   </div>
 
-  <svg class="smile" viewBox="-20 3 100 30" xmlns="http://www.w3.org/2000/svg">
+  <svg class="smile" viewBox="-20 3 100 16" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <path
         id="MyPath"
@@ -39,6 +39,10 @@
   main {
     position: relative;
     margin-top: 100px;
+    padding-top: 0;
+    animation: smile;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
   .skills {
     display: flex;
@@ -59,18 +63,15 @@
     fill: #007bb5;
   }
 
-  .tongue {
-    /* opacity: 0%; */
-    /* animation: showTongue; */
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
-  @keyframes showTongue {
+  @keyframes smile {
     0% {
-      opacity: 0;
+      padding-top: 0;
+    }
+    50% {
+      padding-top: 100px;
     }
     100% {
-      opacity: 1;
+      padding-top: 0;
     }
   }
 </style>
