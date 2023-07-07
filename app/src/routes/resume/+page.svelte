@@ -1,25 +1,27 @@
 <script>
   import Nav from "../../components/Nav.svelte";
+  import Resume from "../../Resume.pdf";
 </script>
 
 <main>
   <Nav />
-
-  <p>Resume being updated.</p>
-  <p>Will live here as PDF.</p>
+  <embed class="portfolio" type="application/pdf" src={Resume} />
 </main>
 
 <style>
   main {
     text-align: center;
     padding: 1em;
-    max-width: 240px;
+    /* max-width: 440px; */
     margin: 0 auto;
   }
 
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
+  .portfolio {
+    height: 800px;
+    width: 800px;
+  }
+
+  embed:focus {
+    outline: none;
   }
 </style>

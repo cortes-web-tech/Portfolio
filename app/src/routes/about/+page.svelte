@@ -1,35 +1,24 @@
 <script>
   import Nav from "../../components/Nav.svelte";
-
+  import githubLogo from "../../images/github.png";
+  import linkedInLogo from "../../images/LinkedIn.png";
+  import ContactLinks from "../../components/ContactLinks.svelte";
   import "../../style/style.css";
 </script>
 
 <main>
   <Nav />
-  <h1>About</h1>
-  <p>Florida based software engineer</p>
+  <h2>Florida based software engineer.</h2>
   <p>
-    Throughout the years I've built several web apps that you can view on my <a
-      href="/work">portfolio</a
-    >.
+    Throughout the years I've built several web apps. Some of which you can view
+    on my <a href="/work">portfolio</a>.
+    <br />
+    The past few years I've been focused on producing live/hybrid events.
+    <br />
+    Now I'm seeking a technical role.
+    <br />
   </p>
-  <p>
-    The past few years I've mostly been focused on producing live/hybrid events.
-    Now I'm returning to my roots.
-  </p>
-  <p>Below are some of my favorite tools to use.</p>
-  <div class="skills">
-    <ul>
-      <li>JavaScript</li>
-      <li>PHP</li>
-      <li>MySql</li>
-      <li>React</li>
-      <li>Svelte</li>
-      <li>AWS</li>
-      <li>Git/Github</li>
-      <li>CI/CD</li>
-    </ul>
-  </div>
+  <ContactLinks />
 </main>
 
 <style>
@@ -43,6 +32,9 @@
     main {
       max-width: none;
     }
+  }
+  p {
+    color: #f7ffe5;
   }
   p a {
     color: #f7ffe5;

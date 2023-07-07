@@ -10,12 +10,9 @@ body{
 
 main p{
     font-size: 30px;
+    color: #F7FFE5
 }
 
 
-.skills ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
+
 

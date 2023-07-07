@@ -1,12 +1,13 @@
 <script>
   import Nav from "../../components/Nav.svelte";
+  import ContactLinks from "../../components/ContactLinks.svelte";
 </script>
 
 <main>
   <Nav />
   <h1>Contact</h1>
   <h2>Email: Cortes.Web.Tech@gmail.com</h2>
-  <a href="https://github.com/cortes-web-tech" target="_blank">Github</a>
+  <ContactLinks />
 </main>
 
 <style>

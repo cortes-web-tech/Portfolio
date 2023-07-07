@@ -12,18 +12,18 @@
         <div class="text">
           <h4>inSession</h4>
           <small>CRUD, Databases</small>
+          <br />
+          <small>Coming soon™️</small>
         </div>
-        <br />
-        <small>Coming soon™️</small>
       </div>
       <!-- </a> -->
       <div class="notReady">
         <div class="text">
           <h4>Data App</h4>
           <small>D3, Rechartjs, react-vis</small>
+          <br />
+          <small>Coming soon™️</small>
         </div>
-        <br />
-        <small>Coming soon™️</small>
       </div>
     </div>
     <div class="--portfolio">
@@ -32,17 +32,18 @@
           <div class="text">
             <h4>View My Travels</h4>
             <small>📍🗺</small>
+            <br />
+            <small>A Data visualization app.</small>
           </div>
-          <small>A Data visualization app.</small>
         </div>
       </a>
       <div class="notReady">
         <div class="text">
           <h4>KnottyLevie</h4>
           <small>(eCommerce Site)</small>
+          <br />
+          <small>Coming soon™️</small>
         </div>
-        <br />
-        <small>Coming soon™️</small>
       </div>
     </div>
   </div>
@@ -52,14 +53,7 @@
   main {
     text-align: center;
     padding: 1em;
-    max-width: 240px;
     margin: 0 auto;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
   }
 
   .portfolio {
@@ -78,8 +72,9 @@
     text-decoration: none;
   }
   .card {
-    height: 15rem;
+    height: 14rem;
     border: 0px solid #a0c49d;
+    border-radius: 50px;
     background-color: #a0c49d;
     margin: 1em;
     padding: 10px;
@@ -91,8 +86,9 @@
   }
 
   .notReady {
-    height: 15rem;
+    height: 14rem;
     border: 0px solid #a0c49d;
+    border-radius: 50px;
     background-color: #a0c49d;
     margin: 1em;
     padding: 10px;
@@ -107,7 +103,7 @@
   }
 
   .text {
-    text-align: end;
+    text-align: center;
     justify-items: end;
   }
 </style>

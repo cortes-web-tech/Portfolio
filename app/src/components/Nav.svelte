@@ -2,7 +2,6 @@
   <nav class="Nav">
     <a href="/">Home</a>
     <a href="/about">About</a>
-    <a href="/contact">Contact</a>
     <a href="/work">Portfolio</a>
 
     <a href="/resume">Resume</a>
@@ -16,10 +15,11 @@
     height: 80px;
     padding-top: 10px;
     padding-bottom: 0px;
+    border-radius: 50px;
   }
 
   .Nav a {
-    color: floralwhite;
+    color: #f7ffe5;
     text-decoration: none;
     justify-content: space-between;
   }
