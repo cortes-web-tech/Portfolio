@@ -1,13 +1,23 @@
-# Portfolio
+# Portfolio [live](https://24mp.world) [repo](https://github.com/cortes-web-tech/Portfolio)
 
-_This portfolio showcases a few apps I've worked on to demonstrate my skills._
+# Portfolio Version History
 
-## _inSession_ [repo](https://github.com/cortes-web-tech/inSession)
+## 0.0.3
 
-_An open source presentation management solution._
-_Built with ReactJS, PHP. Running on AWS EC2._
+- _Rebuilt app using 'npm create vite@latest' to build a lightweight react app._
+- _Links on portfolio point to two live web apps (viewMyTravels & inSession)._
+- _Removed github smiley and added links as a footer instead._
 
-## View My Travels [repo](https://github.com/cortes-web-tech/viewMyTravels)
+## 0.0.2
 
-_Travel blog that displays places I've been over time._
-_Built with Svelte and Google Maps API. Running on AWS EC2._
+- _Updated to include more relevant information._
+- _Added contact links, styled as a smiley face with github/linkedIn logo being the eyes._
+- _Resume PDF displaying correctly._
+- _UI changes, bugfixes_
+- _Attempting to deploy via AWS Amplify._
+
+## 0.0.1
+
+- _Basic layout built._
+- _Portfolio links to [ViewMyTravels](https://www.viewmytravels.com)_
+- _Docker configured/running correctly locally.._
